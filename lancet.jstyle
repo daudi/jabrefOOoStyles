@@ -1,0 +1,58 @@
+NAME
+Vancouver style file.
+
+JOURNALS
+The Lancet
+
+
+PROPERTIES
+Title=References
+IsSortByPosition=true
+IsNumberEntries=true
+ReferenceParagraphFormat=Default
+ReferenceHeaderParagraphFormat=Heading 1
+
+CITATION
+AuthorField=author/editor
+YearField=year
+MaxAuthors=2
+MaxAuthorsFirst=6
+AuthorSeparator=,
+AuthorLastSeparator= & 
+EtAlString= et al.
+YearSeparator= 
+InTextYearSeparator= 
+BracketBefore=
+BracketAfter=
+BracketBeforeInList=
+BracketAfterInList=	
+CitationSeparator=, 
+UniquefierSeparator=,
+GroupedNumbersSeparator=-
+MinimumGroupingCount=3
+FormatCitations=true
+ItalicCitations=false
+BoldCitations=false
+SuperscriptCitations=true
+SubscriptCitations=false
+
+
+LAYOUT
+article=\format[Vancouver,RemoveTilde]{\author} \title <i>\journal</i> \year\uniq;<b>\volume</b>\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}. [ARTICLE]
+
+incollection=\format[Vancouver,RemoveTilde]{\author} \title. In: \begin{editor}\format[Vancouver,RemoveTilde]{\editor} (ed.), \end{editor}\booktitle. \address: \publisher, \year\uniq\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}. [INCOLLECTION]
+
+## This is a comment.
+## Need to double-check author-editor. E.g. reference fix99.
+book=\format[Vancouver,RemoveTilde]{\author}\begin{editor}\format[Vancouver,RemoveTilde]{ \editor} (Ed.).\end{editor} \format{\title}. \begin{address}\address: \end{address}\format{\publisher}, \year\uniq. [BOOK]
+
+techreport=\format[Vancouver,RemoveTilde]{\author}\begin{editor}\format[Vancouver,RemoveTilde]{\editor} (Ed.)\end{editor} \format{\title}. \begin{type}\type\end{type}\begin{number} \number.\end{number} \address: \institution, \year\uniq. [TECHREPORT]
+
+electronic=\begin{author}\format[Vancouver,RemoveTilde]{\author}\end{author}\begin{editor}\format[Vancouver,RemoveTilde]{ \editor} (Ed.)\end{editor} \format{\title}. \begin{url} \url\end{url}\begin{note} \note\end{note}. [ELECTRONIC]
+
+inbook=\format[Vancouver,RemoveTilde]{\author} \chapter. In: \format[Vancouver,RemoveTilde]{\editor} (Ed.), \format{\title}. \publisher, \year\uniq. [INBOOK]
+
+phdthesis=\format[Vancouver,RemoveTilde]{\author} \year\uniq. \title, \school. [PHDTHESIS]
+
+default=\format[Vancouver,RemoveTilde]{\author} \year\uniq. \title, \journal \volume\begin{pages}:\format[FormatPagesForHTML]{\pages}\end{pages}. [DEFAULT]
+

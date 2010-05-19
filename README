@@ -1,0 +1,7 @@
+I am attempting to start a collection of style files for the JabRef OpenOffice plugin.
+This is at a very early stage of development at the moment. 
+
+Notes:
+1. Use \format{} to deal with {} and \& etc. i.e. latex code that needs to be converted.
+2. When you update the nameformatter you need to restart jabref for the changes to take effect.
+3. You can change the style file without having to restart jabref.

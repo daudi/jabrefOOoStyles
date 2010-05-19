@@ -1,0 +1,28 @@
+Author guidelines:
+http://www.download.thelancet.com/flatcontentassets/authors/artwork-guidelines.pdf
+
+Two references are cited as a comma with no space. Three or
+more consecutive references are given as a range with an en
+rule. 
+
+Example:
+
+…15[tab]Saito N, Ebara S, Ohotsuka K, Kumeta J,
+Takaoka K. Natural history of scoliosis in spastic
+cerebral palsy. <i>Lancet</i> 1998;<b>351</b>: 1687–[en rule]92.
+
+If there are six authors or fewer, give all six in the form:
+surname space initials comma. If there are seven or more
+give the first three in the same way, followed by et al.
+
+For a book, give any editors and the publisher, the city of
+publication, and year of publication. 
+
+For a chapter or section of a book, also give the authors and title of the
+section, and the page numbers. 
+
+Online material, cite the URL, and date accessed.
+
+Need to set FormatCitations=true for SuperscriptCitations=true to work
+BracketAfterInList= is followed by a tab that is not visible in the 
+style file (but is there) and is needed to comply with the lancet format.
